@@ -14,3 +14,20 @@ An exploration of supervised classification and K-Nearest Neighbours (K-NN) algo
 - **Part 2: Housing Price Regression (California Housing Dataset)**
   - **Data Pipeline:** Built a scikit-learn preprocessing pipeline for missing value imputation, standard scaling, and one-hot encoding for categorical features.
   - **Regression & Tuning:** Implemented and tuned K-NN Regression, comparing uniform vs. distance-weighted voting schemes, evaluating performance with RMSE.
+
+## Project 2: Decision Trees, Ensemble Voting & Random Forest Regression
+
+An investigation of tree-based models, ensemble methods, and hyperparameter tuning for classification and regression:
+
+- **Part 1: Decision Tree Classification (Breast Cancer Wisconsin Dataset)**
+  - **Data & Preprocessing:** Multicollinearity analysis via correlation heatmaps, feature pruning, and stratified splitting for class imbalance.
+  - **Model Tuning:** Evaluated overfitting in unconstrained trees, performed regularisation and grid search, reduced false positives by ~50% (test accuracy ~0.95).
+
+- **Part 2: Ensemble Voting Regression (Concrete Slump Test Dataset)**
+  - **Data & Preprocessing:** Addressed skew, bimodal distributions, and outliers.
+  - **Voting Ensemble:** Combined Linear Regression, SGD Regression, and SVR within a Voting Regressor ensemble for comparison.
+
+- **Part 3: Decision Tree, Random Forest & Bagging Regression (Abalone Dataset)**
+  - **Data & Preprocessing:** Used categorical encoding, density estimation, and outlier inspection.
+  - **Ensemble Modelling & Feature Importance:** Trained Decision Tree Regressors and Random Forest Regressor models; identified primary predictor and compared against an SVR Bagging Regressor.
+
