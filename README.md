@@ -31,3 +31,20 @@ An investigation of tree-based models, ensemble methods, and hyperparameter tuni
   - **Data & Preprocessing:** Used categorical encoding, density estimation, and outlier inspection.
   - **Ensemble Modelling & Feature Importance:** Trained Decision Tree Regressors and Random Forest Regressor models; identified primary predictor and compared against an SVR Bagging Regressor.
 
+## Project 3: Unsupervised Learning, PCA & Clustering
+
+An investigation of dimensionality reduction and clustering methods alongside supervised classification:
+
+- **Part 1: Cancer Diagnosis Modelling (Breast Cancer Wisconsin Dataset)**
+  - **Supervised Modelling:** Compared Logistic Regression and Decision Trees using grid search tuning, evaluating error tradeoffs and feature importances.
+  - **PCA & Dimensionality Reduction:** Analyzed biplots and loading vectors linking geometric traits to malignancy; retained 95% variance (5 PCs) to benchmark PCA-reduced Logistic Regression.
+
+- **Part 2: Clustering Analysis of Airline Safety Records (Airline Safety Dataset)**
+  - **K-Means Clustering:** Standardized incident and fatality metrics across two time periods (1985–1999 vs. 2000–2014) to segment carrier risk profiles.
+  - **Temporal & PCA Analysis:** Tracked cluster migration over time, mapped safety ratio changes onto 2D PCA biplot space.
+
+- **Part 3: Clustering Analysis of US Arrests Data (USArrests Dataset)**
+  - **Hierarchical Clustering:** Evaluated dendrogram cuts with complete linkage and Euclidean distance, analyzing the impact of feature standardization.
+  - **PCA & K-Means Synthesis:** Projected crime rates into 2D PCA space and compared partitions between Hierarchical and K-Means clustering.
+
+
